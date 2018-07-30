@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="UiTask">
+        <attr name="leftImg" format="reference|color" />
+        <attr name="left_xPosition" format="float" />
+        <attr name="left_yPosition" format="float" />
+        <attr name="left_width" format="integer" />
+        <attr name="left_height" format="integer" />
+        <attr name="rightImg" format="reference|color" />
+        <attr name="right_xPosition" format="float" />
+        <attr name="right_yPosition" format="float" />
+        <attr name="right_width" format="integer" />
+        <attr name="right_height" format="integer" />
+    </declare-styleable>
+</resources>

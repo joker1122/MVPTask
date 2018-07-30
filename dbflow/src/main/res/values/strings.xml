@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">dbflow</string>
+    <string name="log">dbflow_application</string>
+</resources>

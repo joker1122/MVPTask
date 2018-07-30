@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:task="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.a18679.mvptask.ui.UiTask
+        android:id="@+id/ui_task"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        task:leftImg="@color/colorAccent"
+        task:left_width="300"
+        task:rightImg="@color/colorPrimaryDark"
+        task:right_width="300" />
+
+    <Button
+        android:id="@+id/bt_change_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="change_height"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/bt_change_width"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="change_width"
+        android:textStyle="normal" />
+
+    <ListView
+        android:id="@+id/lv_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="#00000000"
+        android:scrollbars="none" />
+
+    <include layout="@layout/layout" />
+</LinearLayout>
